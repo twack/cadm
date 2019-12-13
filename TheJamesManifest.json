@@ -1,0 +1,41 @@
+{
+  "fileName": "TheJamesManifest.json",
+  "fileVersion": "0.0.1",
+  "buildingName": "theJames",
+  "configApprovalDate": "2019-12-09",
+  "approvedBy": "Todd Wackford",
+  "repoBaseUri": "https://raw.githubusercontent.com/twack/cadm/master/",
+  "spaces": [
+    {
+      "spaceType": "Apartment",
+      "spaceDescription": "This is the basic description for a type 1A Apartment Space",
+      "configuration": "1A",
+      "apps": {
+        "test-app-1": "0.0.2",
+        "test-app-2": "0.0.1",
+        "test-app-3": "0.0.1",
+        "test-app-4": "0.0.1"
+      },
+      "drivers": {
+        "test-driver-1": "0.0.1",
+        "test-driver-2": "0.0.1",
+        "test-driver-3": "0.0.1"
+      }
+    },
+    {
+      "spaceType": "Common Area",
+      "spaceDescription": "This is the basic description for a type 1 Common Area Space",
+      "configuration": "1",
+      "apps": {
+        "app1": "version",
+        "app2": "version",
+        "app3": "version"
+      },
+      "drivers": {
+        "drv1": "version",
+        "drv2": "version",
+        "drv3": "version"
+      }
+    }
+  ]
+}
