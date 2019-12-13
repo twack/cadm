@@ -38,7 +38,6 @@
 definition(
     name:"Average All",
     namespace: "smartport",
-    author: "Andrew Parker",
     author: '{"authorName": "Andrew Parker", "smartportVersion": "1.4.0"}',
     description: "Parent App for Average All ChildApps ",
     category: "Convenience",
