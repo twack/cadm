@@ -24,7 +24,7 @@ import groovy.json.JsonOutput
 
 definition(
     name: "Apartment Virtual Device Engine",
-    namespace: "Smartport",
+    namespace: "smartport",
     author: '{"authorName": "Todd Wackford", "smartportVersion": "0.0.1"}',
     description: "Create Virtual Apartment Devices",
     category: "Convenience",
