@@ -31,7 +31,7 @@ import groovy.transform.Field
 
 metadata {
     definition (name: "Schlage Connect BE468 Lock", 
-		namespace: "Hubitat", 
+		namespace: "smartport", 
 		author: '{"authorName": "Todd Wackford", "smartportVersion": "1.0.0"}', ) {
         capability "Actuator"
         capability "Lock"
