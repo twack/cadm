@@ -6,23 +6,17 @@
  *
  *  Copyright 2019 Smartport LLC
  *
- *  Initial Release:	20191020
- *  Last Update:		20191020
+ *  Initial Release:	20191213
+ *  Last Update:		20191213
  *
  *  Change Log:
  *  Version		Date Release	Reason				Author				Ticket#
  *  ---------------------------------------------------------------------------
- *  V0.0.1		20191020		POC            		Todd Wackford		N/A
+ *  V0.0.1		20191213		initial        		Todd Wackford		N/A
  *
  *
  *
  *=============================================================================
- */
- 
- /**
- * TODO List:
- * : first item
- *
  */
 
 import groovy.json.JsonSlurper
@@ -60,11 +54,14 @@ def setupPage(){
             href connectLink
         }
 		section () {
-            input "desired", "enum", options: ["Make","Delete"], required: false, defaultValue: "make", title: "Make or Delete Virtual Devices..."
+            input "desired", "enum", options: ["Make","Delete"], required: false, defaultValue: "Make", title: "Make or Delete Virtual Devices..."
     	}        
-	    //section("") {
-       	//	input "isDebug", "bool", title: "Enable Debug Logging", required: false, multiple: false, defaultValue: false, submitOnChange: true
-    	//}
+		section () {
+            input "spaceType", "enum", options: ["1A","1B",], required: false, defaultValue: "1A", title: "Select Apt Type...(Only 1A works for now)"
+    	}    
+        section("") {
+       		input "isDebug", "bool", title: "Enable Debug Logging", required: false, multiple: false, defaultValue: false, submitOnChange: true
+    	}
     }
 }
 
@@ -122,10 +119,8 @@ void deleteVirtualDevices() {
 
 void makeVirtualDevices() {
     def vDevices = getUnitDeviceSchema()
-    //log.debug toJson(vDevices["1A"])
     def deviceCntr = 1000
     for ( device in vDevices["1A"] ) {
-        //log.info device.value.namespace
         def childDevice = addChildDevice(device.value.namespace, device.value.driver, "$deviceCntr", null, [name: device.key, label: device.key])
         deviceCntr++
     }   
@@ -146,5 +141,5 @@ def toJson(data) {
 }
 
 private ifDebug(msg) {  
-    if (msg && state.isDebug)  log.debug 'DeviceAnvil:' + msg  
+    if (msg && state.isDebug)  log.debug 'AVDE:' + msg  
 }
