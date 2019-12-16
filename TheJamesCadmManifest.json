@@ -20,7 +20,7 @@
       "drivers": {
         "drivers/Average All Device.groovy": "1.9.0",
         "drivers/Peanut Plug.groovy": "2.5.0",
-        "drivers/Schlage Connect BE468-Lock.groovy": "1.0.0"
+        "drivers/Schlage Connect BE468 Lock.groovy": "1.0.0"
       }
     },
     {
