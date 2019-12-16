@@ -12,15 +12,15 @@
       "configuration": "1A",
       "apps": {
         "Apartment Virtual Device Engine.groovy": "0.0.1",
-        "Average-All-Child.groovy": "2.6.0",
-        "Average-All.groovy": "1.4.0",
-        "Lock-Guardian.groovy": "1.3.1",
-        "Smartport-Device-Anvil.groovy": "0.0.1"
+        "Average All Child.groovy": "2.6.0",
+        "Average All.groovy": "1.4.0",
+        "Lock Guardian.groovy": "1.3.1",
+        "Smartport Device Anvil.groovy": "0.0.1"
       },
       "drivers": {
-        "Average-All-Device.groovy": "1.9.0",
-        "Peanut-Plug.groovy": "2.5.0",
-        "Schlage-Connect-BE468-Lock.groovy": "1.0.0"
+        "Average All Device.groovy": "1.9.0",
+        "Peanut Plug.groovy": "2.5.0",
+        "Schlage Connect BE468-Lock.groovy": "1.0.0"
       }
     },
     {
