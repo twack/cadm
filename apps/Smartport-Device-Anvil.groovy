@@ -111,7 +111,6 @@ void refactorDeviceNames() {
             return
         }
     }
-    def cmd = []
     def manifest = new JsonSlurper().parseText(manifestJson)
     for ( space in manifest.spaces ) {
         if ( unitConfig == space.spaceconfiguration ) {
@@ -121,8 +120,8 @@ void refactorDeviceNames() {
                     def device = selectedDevices.find{it.name == deviceData.key}
                     if ( device ) {                       
                         def nameLabel = "${deviceData.value.location} ${deviceData.value.type}"
-                        device.label = nameLabel
-                        device.name = nameLabel
+                        device.label = nameLabel.trim()
+                        device.name = nameLabel.trim()
                     } else {
                         log.error "Error: Device ${deviceData.key} could not be found. Check Manifest file."
                     }
