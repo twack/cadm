@@ -11,7 +11,7 @@
       "spaceDescription": "This is the basic description for a type 1A Apartment Space",
       "configuration": "1A",
       "apps": {
-        "Apartment-Virtual-Device-Engine.groovy": "0.0.1",
+        "Apartment Virtual Device Engine.groovy": "0.0.1",
         "Average-All-Child.groovy": "2.6.0",
         "Average-All.groovy": "1.4.0",
         "Lock-Guardian.groovy": "1.3.1",
