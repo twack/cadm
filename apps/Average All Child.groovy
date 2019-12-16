@@ -58,9 +58,7 @@ definition(
     author: '{"authorName": "Andrew Parker", "smartportVersion": "2.6.0"}', 
     description: "This was designed to display/set an 'average' or mean illumination/Humidity/temparature/ambient pressure/power & motion from a group of devices",
     category: "My Apps",
-    
-parent: "Cobra:Average All",
-    
+    parent: "smartport:Average All",  
     iconUrl: "",
     iconX2Url: ""
 )
