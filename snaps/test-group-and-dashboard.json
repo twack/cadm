@@ -1,0 +1,346 @@
+{
+  "deviceReplacements": {
+    "997": {
+      "deviceName": "Virtual Dimmer 1",
+      "deviceLabel": "Virtual Dimmer 1",
+      "deviceTypeName": "Virtual Dimmer",
+      "deviceTypeNamespace": "hubitat"
+    },
+    "998": {
+      "deviceName": "Virtual Dimmer 2",
+      "deviceLabel": "Virtual Dimmer 2",
+      "deviceTypeName": "Virtual Dimmer",
+      "deviceTypeNamespace": "hubitat"
+    },
+    "1000": {
+      "deviceName": "Virtual Motion Sensor 1",
+      "deviceLabel": "Virtual Motion Sensor 1",
+      "deviceTypeName": "Virtual Motion Sensor",
+      "deviceTypeNamespace": "hubitat"
+    },
+    "1001": {
+      "deviceName": "Virtual Motion Sensor 2",
+      "deviceLabel": "Virtual Motion Sensor 2",
+      "deviceTypeName": "Virtual Motion Sensor",
+      "deviceTypeNamespace": "hubitat"
+    },
+    "999": {
+      "deviceName": "Virtual Lock",
+      "deviceLabel": "Virtual Lock",
+      "deviceTypeName": "Virtual Lock",
+      "deviceTypeNamespace": "hubitat"
+    },
+    "1002": {
+      "deviceName": "Dimmer Group 1",
+      "deviceLabel": "Dimmer Group 1",
+      "deviceTypeName": "Group Bulb Dimmer-2.1",
+      "deviceTypeNamespace": "hubitat"
+    }
+  },
+  "appReplacements": {
+    "283": {
+      "appTypeName": "Group-2.1",
+      "appTypeNamespace": "hubitat",
+      "appName": "Group-2.1",
+      "appLabel": "Dimmer Group 1",
+      "parentAppTypeName": "Groups and Scenes",
+      "parentAppLabel": "Groups and Scenes",
+      "singleInstance": false
+    },
+    "281": {
+      "appTypeName": "Dashboard",
+      "appTypeNamespace": "hubitat",
+      "appName": "Dashboard",
+      "appLabel": "Dashboard",
+      "parentAppTypeName": "Hubitat\\u00ae Dashboard",
+      "parentAppLabel": "Hubitat\\u00ae Dashboard",
+      "singleInstance": false
+    }
+  },
+  "appData": {
+    "283": {
+      "state": {
+        "zigbeeMap": {
+          
+        },
+        "allDevs": [
+          "997",
+          "998"
+        ],
+        "switchDevs": [
+          
+        ],
+        "dimmerDevs": [
+          
+        ],
+        "bulbDevs": [
+          
+        ],
+        "hasDevices": false
+      },
+      "appSettings": [
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "indicator",
+          "type": "bool",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": true,
+          "name": "bulbs",
+          "type": "enum",
+          "value": null
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "optimize",
+          "type": "bool",
+          "value": "true"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "indicatorOff",
+          "type": "bool",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "zbGroups",
+          "type": "bool",
+          "value": "false"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "name",
+          "type": "text",
+          "value": "Dimmer Group 1"
+        },
+        {
+          "deviceList": null,
+          "multiple": true,
+          "name": "switches",
+          "type": "enum",
+          "value": null
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "addDevs",
+          "type": "button",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": true,
+          "name": "dimmers",
+          "type": "enum",
+          "value": "[\\"997\\",\\"998\\"]"
+        },
+        {
+          "deviceList": {
+            "997": null,
+            "998": null
+          },
+          "multiple": true,
+          "name": "otherDimmers",
+          "type": "capability",
+          "value": null
+        },
+        {
+          "deviceList": null,
+          "multiple": true,
+          "name": "otherColors",
+          "type": "capability",
+          "value": null
+        },
+        {
+          "deviceList": null,
+          "multiple": true,
+          "name": "otherCTs",
+          "type": "capability",
+          "value": null
+        },
+        {
+          "deviceList": {
+            "997": null,
+            "998": null
+          },
+          "multiple": true,
+          "name": "otherDevices",
+          "type": "capability",
+          "value": null
+        }
+      ],
+      "subscriptions": [
+        
+      ]
+    },
+    "281": {
+      "state": {
+        "layout": {
+          "roundedCorners": 0,
+          "dateFormat": "MM/DD/YYYY",
+          "hideLabels": false,
+          "customColors": [
+            
+          ],
+          "colWidth": 200,
+          "cloudRefresh": 5,
+          "hsmPin": "",
+          "hide3dot": false,
+          "clockMode": true,
+          "gridGap": 8,
+          "tiles": [
+            {
+              "rowSpan": 1,
+              "template": "dimmer",
+              "col": 1,
+              "colSpan": 1,
+              "id": 0,
+              "row": 1,
+              "device": "997"
+            },
+            {
+              "rowSpan": 1,
+              "template": "dimmer",
+              "col": 2,
+              "colSpan": 1,
+              "id": 1,
+              "row": 1,
+              "device": "998",
+              "templateExtra": null
+            },
+            {
+              "rowSpan": 1,
+              "template": "motion",
+              "col": 1,
+              "colSpan": 1,
+              "id": 2,
+              "row": 2,
+              "device": "1000",
+              "templateExtra": null
+            },
+            {
+              "rowSpan": 1,
+              "template": "motion",
+              "col": 2,
+              "colSpan": 1,
+              "id": 4,
+              "row": 2,
+              "device": "1001",
+              "templateExtra": null
+            },
+            {
+              "rowSpan": 1,
+              "template": "lock",
+              "col": 1,
+              "colSpan": 1,
+              "id": 5,
+              "row": 3,
+              "device": "999",
+              "templateExtra": null
+            },
+            {
+              "rowSpan": 1,
+              "template": "dimmer",
+              "col": 3,
+              "colSpan": 1,
+              "id": 6,
+              "row": 1,
+              "device": "1002"
+            }
+          ],
+          "goBack": true,
+          "modePin": "",
+          "bgColor": "Black",
+          "lanRefresh": 2,
+          "iconSize": 42,
+          "cols": 7,
+          "rowHeight": 160,
+          "hideEvents": false,
+          "tempScale": "F",
+          "noColors": false,
+          "readOnly": null,
+          "rows": 3,
+          "hideIconText": false,
+          "name": "Dashboard",
+          "fontSize": 12
+        }
+      },
+      "appSettings": [
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "useAllDevices",
+          "type": "bool",
+          "value": "true"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "pin",
+          "type": "password",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "lanRefresh",
+          "type": "number",
+          "value": "2"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "localAccess",
+          "type": "bool",
+          "value": "true"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "dbReadOnly",
+          "type": "bool",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "cloudAccess",
+          "type": "bool",
+          "value": "true"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "modesPin",
+          "type": "password",
+          "value": ""
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "cloudRefresh",
+          "type": "number",
+          "value": "5"
+        },
+        {
+          "deviceList": null,
+          "multiple": false,
+          "name": "hsmPin",
+          "type": "password",
+          "value": ""
+        }
+      ],
+      "subscriptions": [
+        
+      ]
+    }
+  }
+}
