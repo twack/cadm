@@ -1,0 +1,29 @@
+isName,newName
+Water Heater,1
+Entrance Lights,2
+Kitchen Lights,3
+Kitchen Drop Lights,4
+Living Room Lights,5
+Living Room Fan,6
+Living Room Fan Light,7
+Balcony Lights,8
+Bedroom Fan,9
+Bedroom Lights,10
+Bedroom Outlet,11
+Bathroom Extractor Fan,12
+Bathroom Lights,13
+Closet Lights,14
+Kitchen Counter Lights,15
+SmokeCO,16
+Thermostat,17
+Wine Bar Lights,18
+Fridge Peanut Outlet,19
+Front Door,20
+Sensor Front Door,21
+Sensor Entrance,22
+Sensor Living Room,23
+Sensor Bathroom,24
+Sensor Closet Contact,25
+Sensor Closet Motion,26
+Sensor Leak Washer,27
+Sensor Leak Kitchen Sink,28
