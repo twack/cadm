@@ -1,0 +1,29 @@
+isName,type,location,newName
+1,Water Heater,Apartment,Water Heater
+2,Lights,Entrance,Entrance Lights
+3,Lights,Kitchen,Kitchen Lights
+4,Lights,Kitchen Drop,Kitchen Drop Lights
+5,Lights,Living Room,Living Room Lights
+6,Fan,Living Room,Living Room Fan
+7,Fan Light,Living Room,Living Room Fan Light
+8,Lights,Balcony,Balcony Lights
+9,Fan,Bedroom,Bedroom Fan
+10,Lights,Bedroom,Bedroom Lights
+11,Outlet,Bedroom,Bedroom Outlet
+12,Extractor Fan,Bathroom,Bathroom Extractor Fan
+13,Lights,Bathroom,Bathroom Lights
+14,Lights,Closet,Closet Lights
+15,Lights,Kitchen Counter,Kitchen Counter Lights
+16,SmokeCO,Apartment,SmokeCO
+17,Thermostat,Apartment,Thermostat
+18,Lights,Wine Bar,Wine Bar Lights
+19,Outlet,Fridge Peanut,Fridge Peanut Outlet
+20,Lock,Front Door,Front Door
+21,Sensor,Front Door,Sensor Front Door
+22,Sensor,Entrance,Sensor Entrance
+23,Sensor,Living Room,Sensor Living Room
+24,Sensor,Bathroom,Sensor Bathroom
+25,Sensor,Closet Contact,Sensor Closet Contact
+26,Sensor,Closet Motion,Sensor Closet Motion
+27,Leak Sensor,Washer,Sensor Leak Washer
+28,Leak Sensor,Kitchen Sink,Sensor Leak Kitchen Sink
